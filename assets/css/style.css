@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;700&family=Cherry+Bomb+One&family=Chivo:wght@500&family=Dancing+Script:wght@700&family=Darumadrop+One&family=Exo+2&family=Foldit:wght@700&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,400;1,700&family=Lobster&family=Lora:ital@1&family=Mogra&family=Montez&family=Montserrat&family=Pacifico&family=Press+Start+2P&family=Quicksand:wght@500&family=Satisfy&family=Shadows+Into+Light&family=Ubuntu&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color:#ffe5d9;
+    font-family: "Pacifico";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.butt button {
+    padding: 15px 30px;
+    background-color: #AED9E0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a{
+    text-decoration: none;
+}
+.butt button:hover {
+    background-color: #85C7D3;
+}
+
+.butt button:active {
+    background-color: #85C7D3;
+}
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
